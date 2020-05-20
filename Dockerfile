@@ -7,4 +7,4 @@ RUN apt-get update && apt-get -y install certbot python-certbot-nginx
 
 WORKDIR /init
 
-COPY . .
+COPY ./src .
